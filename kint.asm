@@ -4,7 +4,7 @@ data SEGMENT
      flag DW 0;0 for ignore
      exitFlag DW 1;0 for terminate
      ctr DW 0
- ;scan code z  , a  , b  ,......., y
+     ;scan code z  , a  , b  ,......., y
      key DB 2ch, 1eh, 30h, 2eh, 20h, 12h, 21h, 22h, 23h, 17h, 24h, 25h, 26h, 32h, 31h, 18h, 19h, 10h, 13h, 1fh, 14h, 16h, 2fh, 11h, 2dh, 15h
 data ENDS
 
